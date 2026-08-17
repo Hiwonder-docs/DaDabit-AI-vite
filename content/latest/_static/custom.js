@@ -92,7 +92,7 @@ function sortVersionSelector() {
         ['latest', 0],
         ['starter-kit', 1],
         ['standard-kit', 2],
-        ['ultimate-kit', 3],
+        ['advanced-kit', 3],
     ]);
     const selectedValue = select.value;
     const options = Array.from(select.options).map((option, index) => ({

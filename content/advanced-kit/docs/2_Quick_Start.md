@@ -1,78 +1,78 @@
 ﻿# 2. Quick Start
 
-## 2.1 LLM Interaction
+## 2.1 Large Model Interaction
 
 > [!NOTE]
 >
-> **This section is introduced to quickly get started with the WonderLLM module. For detailed and diverse feature, refer to [4.4 WonderLLM Module](https://wiki.hiwonder.com/projects/DaDablock-AI/en/ultimate-kit/docs/4_Software_and_Hardware_Guide.html#_4-4-wonderllm-module) for learning.**
+> **This section is designed to facilitate a quick start with the WonderLLM module. The module features diverse features. Refer to [4.5 WonderLLM Module](./4.Software%20and%20Hardware%20Guide.md#section-4-4) for detailed learning.**
 
 ### 2.1.1 Powering On the Device
 
-1. The module supports power supply through three interfaces: **① Type-C interface on the top**, **② Type-C interface on the bottom**, and **③ 4-PIN I2C communication interface**. Connect an external power supply device to any interface to automatically power on the module.
+1. The module supports power supply through the following interfaces, upper **Type-C Port 1**, lower **Type-C Port 2**, or **4-PIN I2C Communication Interface**. Connect an external power supply to any of these interfaces to automatically power on the module.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_1/1.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_1/1.png" class="common_img" style="width:300px" >
 
-2. After powering on the module, the screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice announcement. Complete the module device network connection first according to [Network Configuration](#section-2-1-2).
+2. Upon powering on the module, the screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice broadcast. Complete the module network configuration first according to [Module Network Configuration](#section-2-1-2).
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_1/2.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_1/2.png" class="common_img" style="width:300px" >
 
-3. After completing network configuration, the module needs to be bound to the platform agent. The screen displays the **device ID** and **device binding platform URL** accompanied by a voice announcement of the verification code. Complete the device binding according to [Device Binding](#section-2-1-4).
+3. After network configuration, the module needs to be bound to the platform agent. The module screen displays the **device ID** and **device binding website** accompanied by a voice broadcast of the verification code. Complete the device binding according to [Device Binding](#section-2-1-4).
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_1/3.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_1/3.png" class="common_img" style="width:300px" >
 
-4. After powering on, if device binding has been completed, a white circular scroll bar is displayed on the screen while the module automatically connects to the network using the Wi-Fi information saved in internal storage. If network connection fails, the screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice announcement. Reconfigure new Wi-Fi connection details available in the current environment according to [Network Configuration](#section-2-1-2).
+4. If device binding is completed after powering on the module, a white circular loading bar appears on the screen, indicating that the module is connecting to the network using the saved Wi-Fi information. If the network connection fails, the screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice broadcast. Reconfigure the new Wi-Fi connection information available in the current environment according to [Module Network Configuration](#section-2-1-2).
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_1/4.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_1/4.png" class="common_img" style="width:300px" >
 
-5. After powering on, if device binding has been completed and the configured Wi-Fi connection information is available in the current environment, the network connects successfully after the white circular scroll bar loads for a period, jumping to the expression display interface of the module. At this point, all configurations of the module are normal, and human-robot interaction can start after waking up the module.
+5. If device binding is completed after powering on the module and the configured Wi-Fi connection information is available in the current environment, the white circular loading bar loads for a period of time until the network connection succeeds, then switches to the module expression display interface. At this point, all configurations of the module are normal, and human-computer interaction can begin after waking up the module.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_1/1.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_1/1.png" class="common_img" style="width:300px" >
 
 <a id ="section-2-1-2"></a>
 
-### 2.1.2 Connecting the Module to the Network
+### 2.1.2 Module Network Configuration
 
-1. After powering on, the module starts the network connection operation. The screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice announcement. The LLM module opens its built-in hotspot for connection and configuration. Different devices have different hotspot names, formatted uniformly as **Robot-xxxx**. The hotspot **Robot-B7B9** is used as an example below.
+1. After powering on, the module starts the network connection process. The screen displays the **device hotspot name** and **browser network configuration URL** accompanied by a voice broadcast. The large model module enables its built-in hotspot for connection and configuration. Hotspot names vary by device, with a uniform format of **Robot-xxxx**. The hotspot **Robot-B7B9** is used below as an example for explanation.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_1/2.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_1/2.png" class="common_img" style="width:300px" >
 
-2. Search for the corresponding hotspot using a computer or mobile phone and connect, with no password required for this hotspot.
+2. Search for and connect to the corresponding hotspot using a computer or smartphone, noting that this hotspot requires no password.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/1.png" class="common_img" style="width:400px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/1.png" class="common_img" style="width:400px" >
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/2.png" class="common_img" style="width:400px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/2.png" class="common_img" style="width:400px" >
 
-3. Click the [Network Configuration](http://192.168.4.1/) hyperlink to directly access the device network configuration URL, or copy the URL below, open any browser, and enter the device network configuration URL.
+3. Click the [<u>Network Configuration</u>](http://192.168.4.1/) hyperlink for direct access to the device network configuration URL, or copy the following URL and open any browser to access the device network configuration URL.
 
 ```py
 http://192.168.4.1
 ```
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/3.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/3.png" class="common_img" style="width:500px" >
 
-4. Enter the desired hotspot name for automatic connection upon power-on in area ① in the figure below, and enter the connection password in area ②. Finally, click **Connect** in area ③. The module will attempt to search for and connect to a matching hotspot in the current environment based on the provided connection details.
+4. Enter the name of the desired hotspot for automatic connection upon powering on in box ① in the figure below, and enter the hotspot connection password in box ②. Finally click **Connect** in box ③, and the module attempts to search for and connect to the matching hotspot in the current environment based on the provided connection details.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/4.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/4.png" class="common_img" style="width:500px" >
 
-5. A list of available hotspots in the current environment scanned by the module can be found on the interface. Clicking an item will automatically fill the corresponding hotspot name into area ①, which is more convenient and time-saving.
+5. The list of available hotspots in the current environment scanned by the module is visible on the interface. Click an item, and the corresponding hotspot name automatically fills into box ①, saving time and offering convenience.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/5.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/5.png" class="common_img" style="width:500px" >
 
-6. If the following prompt appears on the interface, it indicates that the hotspot cannot be found in the current environment or the connection password is incorrect. Please re-enter the details.
+6. If the following prompt appears on the interface, the hotspot cannot be found in the current environment or the connection password is incorrect. Please re-enter.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/6.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/6.png" class="common_img" style="width:500px" >
 
-7. If the following prompt appears on the interface, it indicates that the module has successfully found and connected to the corresponding hotspot. The module will automatically restart and connect to the corresponding hotspot.
+7. If the following prompt appears on the interface, the module has successfully found and connected to the corresponding hotspot. The module will automatically restart and connect to the corresponding hotspot.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_2/7.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_2/7.png" class="common_img" style="width:500px" >
 
 > [!NOTE]
 >
-> * **Do not enter hotspots that cannot be searched in the current environment, have excessively weak signals, or do not support network connection features.**
+> * **Do not enter hotspots that cannot be searched in the current environment, have excessively weak signals, or do not support network connection functions.**
 >
-> * **If connection details of other hotspots were saved previously, newly saved connection details will coexist with them. Upon the next power-on operation, the module reads each saved connection detail in order to attempt matching and connecting to hotspots.**
+> * **If the module has previously saved connection details for other hotspots, the newly saved hotspot connection details co-exist with them. Upon the next power-on operation, the module reads each connection entry sequentially in saved order to attempt matching and connecting to a hotspot.**
 >
-> * **If the prompt "Error: Failed to check for new version, will retry in xx seconds" appears on the screen after network configuration is completed, it may be due to the current hotspot being unable to access the Internet or poor network quality. Please try switching networks.**
+> * **If the prompt Error: Failed to check for new version, retrying in xx seconds appears on the screen after completing network configuration, the current hotspot may not be able to access the Internet or the network quality may be poor. Please try switching to another network.**
 >
 
 <a id ="section-2-1-3"></a>
@@ -81,418 +81,334 @@ http://192.168.4.1
 
 > [!NOTE]
 >
-> **If GitHub authentication is not completed for the account, module usage is not affected, but available features are limited. Differences between unauthenticated and authenticated accounts are shown in the table below:**
+> **If the account has not completed GitHub authentication, the use of the module is not affected, but available functions are limited. The differences between unauthenticated and authenticated accounts are shown in the table below:**
 
 |                           |        Unauthenticated         |                    Authenticated                     |
 | :-----------------------: | :----------------------------: | :--------------------------------------------------: |
 |      Model selection      |          Xiaozhi Lite          | Xiaozhi Lite, Qwen 3.6, DeepSeek V4, Doubao Seed 2.0 |
 |  Number of bound devices  |               10               |                         100                          |
-| Official service features | Weather, Music, Knowledge Base |      Weather, Joke, Music, News, Knowledge Base      |
+| Official service features | Weather, Music, Knowledge Base |    Weather, Joke, Music, News, Knowledge **Base**    |
 
-- **XiaoZhi AI Platform Account Registration**
+- **XiaoZhi Platform Account Registration**
 
-1. Click the [XiaoZhi AI Chatbot](https://xiaozhi.me/) hyperlink to directly access the device binding URL, or copy the URL below, open any browser, and enter the device binding URL.
+1. Click the [<u>XiaoZhi AI Chatbot</u>](https://xiaozhi.me/) hyperlink for direct access to the device binding URL below, or copy the following URL and open any browser to access the device binding URL.
 
 ```py
 https://xiaozhi.me
 ```
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/1.png" class="common_img" style="width:800px" >
+
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/1.png" class="common_img" style="width:500px" >
 
 2. Click **Console** to enter the XiaoZhi AI Agent Management Platform.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/2.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/2.png" class="common_img" style="width:500px" >
 
-3. For initial login, register a platform account first.
+3. If logging in for the first time, register a platform account first.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/3.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/3.png" class="common_img" style="width:500px" >
 
-4. After filling in the corresponding information, click **Send code** to obtain the verification code required for account registration.
+4. After filling in the required information, click **Send code** to obtain the verification code required for account registration.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/4.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/4.png" class="common_img" style="width:500px" >
 
-5. Check the box to agree to the terms of service and privacy policy, and then click **Login**.
+5. Check the box to agree to the terms of service and privacy policy, then click **Login**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/5.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/5.png" class="common_img" style="width:500px" >
 
-6. Select and complete the corresponding information, then click **Confirm** to complete registration and login.
+6. Select and fill in the required information, then click **Confirm** to complete registration and login.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/6.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/6.png" class="common_img" style="width:500px" >
 
-- **Logging in to GitHub Platform**
+- **Logging into GitHub Platform**
 
-1. On the XiaoZhi platform, click **GitHub Verification** under the <img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/image.png" style="width:70px" class="inline-icon" /> icon. After the interface jumps to the authentication page, click **Link GitHub**.
+1. On the XiaoZhi platform, click **GitHub Verification** under the <img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/image.png" style="width:70px" class="inline-icon" /> icon, wait for the interface to jump to the authentication page, then click **Link GitHub**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/1.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/1.png" class="common_img" style="width:500px" >
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/2.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/2.png" class="common_img" style="width:500px" >
 
 2. Wait for the page to jump to the GitHub account login page.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/3.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/3.png" class="common_img" style="width:400px" >
 
-3. If a GitHub account has already been registered, enter the username and password to log in directly and jump to [Binding XiaoZhi Platform and GitHub Platform](#section-2-1-3-3). If no GitHub account has been registered, click **Create an account**.
+3. If a GitHub account has been registered, log in directly with the username and password, jumping to [Binding XiaoZhi Platform with GitHub Platform](#section-2-1-3-3). If no GitHub account has been registered, click **Create an account**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/4.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/4.png" class="common_img" style="width:400px" >
 
-4. Enter the personal email, login password, username, and location details in sequence on the pop-up interface, and click **Create account** to submit the registration information.
+4. In the pop-up interface, enter personal email, password, username, and location details in sequence, then click **Create account** to submit registration information.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/5.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/5.png" class="common_img" style="width:400px" >
 
 5. Click **Visual puzzle** on the page to start image verification.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/6.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/6.png" class="common_img" style="width:400px" >
 
-6. After completing image verification, the GitHub platform will send a verification email to the registered email address entered previously. Open the email, copy the verification code, and enter it on the web page.
+6. After completing image verification, GitHub sends a verification email to the previously entered registration email address. Open the email, copy the verification code, and enter it into the webpage.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/7.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/7.png" class="common_img" style="width:400px" >
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/8.png" class="common_img" style="width:400px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/8.png" class="common_img" style="width:400px" >
 
-7. After completing registration, the web page jumps to the login page, and a pop-up window indicating successful registration is displayed.
+7. After completing registration, the webpage jumps to the login page, displaying a pop-up message indicating successful registration.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/9.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/9.png" class="common_img" style="width:400px" >
 
 <a id ="section-2-1-3-3"></a>
 
-- **Binding XiaoZhi Platform and GitHub Platform**
+- **Binding XiaoZhi Platform with GitHub Platform**
 
 1. Click **Authorize tenclass** to complete the binding between the XiaoZhi platform and the GitHub platform.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/11.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/11.png" class="common_img" style="width:500px" >
 
-2. After completing the binding, authentication on the XiaoZhi platform is fully completed, automatically returning to the previous authentication page where the following prompt appears.
+2. Upon completing the binding, authentication on the XiaoZhi platform is fully completed, automatically returning to the previous authentication page where the following prompt appears.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/12.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/12.png" class="common_img" style="width:500px" >
 
 <a id ="section-2-1-4"></a>
 
-### 2.1.4 Device Binding
+### 2.3.4 Device Binding
 
 1. After completing registration, login, and authentication on the XiaoZhi platform, click **Agents** to enter the following interface.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/16.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/16.png" class="common_img" style="width:500px" >
 
-2. Click the **∨** button next to the add device button, and then click **Create Agent**.
+2. Click the **∨** button next to the add device button, then click **Create Agent**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/8.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/8.png" class="common_img" style="width:500px" >
 
-3. Fill in the agent name, and then click **Confirm** to complete adding the agent.
+3. Fill in the agent name, then click **Confirm** to complete adding the agent.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/9.png" class="common_img" style="width:500px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/9.png" class="common_img" style="width:500px" >
 
-4. Click **Configure** to configure various functions for the agent.
+4. Click **Configure** to set up various function configurations for the agent.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/10.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/10.png" class="common_img" style="width:500px" >
 
-5. Click **Role** to configure the role of the agent. Select the desired dialogue language in area ①, select the desired role voice in area ②, and adjust voice settings in area ③.
+5. Click **Role** to configure the agent role, selecting the desired conversation language in box ①, selecting the desired role voice in box ②, and completing voice settings in box ③.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/11.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/11.png" class="common_img" style="width:500px" >
 
-6. Click **Model & Memory**, select **DeepSeek V4 (Rich Personality)** for the language model option, disable the memory feature, and keep all other options as default.
+6. Click **Model & Memory**, select **DeepSeek V4 (Rich Personality)** for the language model option, disable the memory function, and keep the remaining settings at default values.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/17.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/17.png" class="common_img" style="width:500px" >
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/13.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/13.png" class="common_img" style="width:500px" >
 
-7. Click **Extensions**, check all official service features, keep all other options as default, and finally click **Save**.
+7. Click **Extensions**, check all official service functions, keep remaining options default, and click **Save**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_5/18.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_5/18.png" class="common_img" style="width:500px" >
 
-8. Click **Devices** to enter the device management feature.
+8. Click **Devices** to access the device management function.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/15.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/15.png" class="common_img" style="width:500px" >
 
-9. Click **Link new device**, enter the **6-digit device ID** in the pop-up window, and click **Link**.
+9. Click **Link new device**, fill in the **6-digit Device ID** in the pop-up window, and click **Link**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/16.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/16.png" class="common_img" style="width:500px" >
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/17.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/17.png" class="common_img" style="width:500px" >
 
-10. If the binding is successful, the prompt **Device Added Successfully** is displayed on the page. Then select **Open Source Version** and click **Start Using**.
+10. Upon successful binding, the **Device Added Successfully** prompt appears on the page, then select **Open Source Edition** and click **Start Using**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_2/sub_3/18.png" class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_2/sub_3/18.png" class="common_img" style="width:500px" >
 
-### 2.1.5 Free Chat
+### 2.1.4 Free Chat
 
 - **Function Overview**
 
-The module has built-in special functions that can be triggered by voice commands during human-robot dialogue interactions. Refer to the following phrases to send commands to the WonderLLM module to query all currently supported special functions: **① What features are available?** and **② Introduce available functions.** The special functions currently supported by the module are listed below:
+&emsp;The module features built-in special functions that can be invoked by spoken commands during human-computer dialogue. Refer to the following expressions to issue commands to the WonderLLM module and query all currently supported special functions, **① Show capabilities**, **② Introduce the functions**. The special functions currently supported by the module are listed below:
 
 - **Invocation Examples**
 
-Refer to the following phrases to send commands to the WonderLLM module to trigger corresponding special functions:
+&emsp;Refer to the following expressions to issue instructions to the `WonderLLM` module and invoke corresponding special functions:
 
-1. Weather query function: **Check the weather in xx region.**
+1. Weather query function: **Check the weather in xx region**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/1.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/1.png" class="common_img" style="width:300px" >
 
-2. News broadcast function: **① Broadcast today's news** or **② Tell me about today's trending events.**
+2. News broadcast function: **① Broadcast today's news**, **② Introduce today's trending events**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/2.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/2.png" class="common_img" style="width:300px" >
 
-3. Outfit advice function: **What is a suitable outfit for going out today?**
+3. Outfit suggestion function: **What is a suitable outfit for going out today?**
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/3.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/3.png" class="common_img" style="width:300px" >
 
-4. Joke telling function: **① Tell a joke** or **② Tell a joke to entertain.**
+4. Joke telling function: **① Tell a joke**, **② Share a funny story**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/6.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/4.png" class="common_img" style="width:300px" >
 
-5. Almanac query function: **Check today's almanac items.**
+5. Almanac query function: **Query today's almanac**.
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/5.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/5.png" class="common_img" style="width:300px" >
 
-6. Music playback function: **Play a random song.** 
+6. Music playback function: **Play a random song**. 
 
    > [!NOTE]
    >
-   > **It is recommended to lower the module volume when using the music playback function.**
+   > **When using the music playback function, lowering the volume of the module is recommended.**
 
-<img src="../_static/media/chapter_4/section_4/media/subsection_8/6.png" class="common_img" style="width:300px" >
+<img src="../_static/media/chapter_4/section_5/media/subsection_8/6.png" class="common_img" style="width:300px" >
 
 ## 2.2 Hardware Preparation
 
 ### 2.2.1 Powering On
 
-1. Insert the battery into the battery slot at the bottom of the controller. 
+* Insert the battery into the battery slot at the bottom of the micro:bit expansion board. 
 
-   > [!NOTE]
-   >
-   > **Do not reverse the positive and negative poles.**
+  > [!NOTE]
+  >
+  > **Do not reverse the positive and negative terminals.**
 
-<img src="../_static/media/chapter_2/section_2/media/image1.png"  class="common_img" style="width:300px;" >
+<img src="../_static/media/chapter_2/section_2/media/image1.png"  class="common_img" style="width:400px;" >
 
-2. Turn on the power switch. The red power indicator light on the controller glowing red indicates successful powering on.
+* Turn on the power switch. The red power indicator light on the expansion board lights up, indicating successful startup.
 
-<img src="../_static/media/chapter_2/section_2/media/image2.png"  class="common_img" style="width:250px;" >
+<img src="../_static/media/chapter_2/section_2/media/image2.png"  class="common_img" style="width:400px;" >
 
 > [!NOTE]
 >
-> **When powering on for the first time, follow the steps in Section 2.2.2 Charging to charge through the charging port for about 5 seconds to activate the built-in battery protection chip. If the battery is not removed after activation, no further activation is required in the future.**
+> **For the first startup, refer to 2.2.2 Charging Instructions and charge the device via the charging port for about 5 seconds to activate the built-in battery protection chip. If the battery is not removed after activation, no further activation is needed later.**
 
 ### 2.2.2 Charging
 
-1. Ensure the power switch of the controller is set to the **OFF** position. Connect one end of the USB cable to the charging interface of the controller and the other end to the charger.
+#### 1. Charging Instructions
 
-<img src="../_static/media/chapter_2/section_2/media/image3.png"  class="common_img" style="width:450px;" >
+Use a 5 V 2A charger and connect it to the charging port of the micro:bit expansion board using the included Type-C data cable to charge:
 
-2. During charging, the LED indicator on the controller glows blue. Once fully charged, the LED turns off. Unplug the power cable promptly after charging is complete to avoid overcharging.
+<img src="../_static/media/chapter_2/section_2/media/image3.png"  class="common_img" style="width:400px;" >
 
-<img src="../_static/media/chapter_2/section_2/media/image4.png"  class="common_img" style="width:400px;" >
+#### 2. Notes
 
-> [!NOTE]
->
-> **The power switch must be turned off during charging, otherwise the battery cannot be fully charged. Unplug the charger and power supply promptly after charging is complete to avoid overcharging and damaging the battery. Someone must be present during charging.**
+   * During charging, the blue indicator light on the expansion board lights up, and the blue light turns off when fully charged. Unplug the charger and power supply promptly after charging is completed to avoid battery damage from overcharging. Attendance is required during charging.
+   * The power switch must be turned off during charging, otherwise the battery cannot be fully charged.
 
 ## 2.3 Software Configuration
 
-### 2.3.1 WonderCode Software Package
+### 2.3.1 micro:bit Programming Environment
 
-- [WonderCode Windows Version](https://drive.google.com/file/d/1X8SvOM01UXOM2IvFwN_Ty7Ert5NPqZr8/view?usp=sharing)
+For the programming environment, BBC provides the online programming website [Microsoft MakeCode for micro:bit](https://makecode.microbit.org/), which features the easy-to-use graphical editor MakeCode.
 
-- [WonderCode Mac Version](https://hiwonder.com.cn/download/pcSoftware?get_pc=1&os=mac)
+<img src="../_static/media/chapter_2/section_3/media/image1.png"  class="common_img" style="width:900px;" >
 
-### 2.3.2 Installing the WonderCode
+### 2.3.2 DaDabitv2 Extension Library
 
-1. Open the **WonderCode setup.exe** software installation package.
+* Click to open **Extensions**.
 
-<img src="../_static/media/chapter_2/section_3/media/image1.png"  class="common_img" style="width:100px;" >
+<img src="../_static/media/chapter_2/section_3/media/image2.png"  class="common_img" style="width:900px;" >
 
-2. Select the language, and then click **OK**.
+* Search for **https://github.com/HiwonderK12/DaDabitV2** in **Extensions** to add **dadabitV2**.
 
-<img src="../_static/media/chapter_2/section_3/media/image2.png"  class="common_img" style="width:400px;" >
+<img src="../_static/media/chapter_2/section_3/media/image3.png"  class="common_img" style="width:900px;" >
 
-3. Choose the installation location, and then click **Next**.
-
-<img src="../_static/media/chapter_2/section_3/media/image3.png"  class="common_img" style="width:500px;" >
-
-4. Click **Next**.
-
-<img src="../_static/media/chapter_2/section_3/media/image4.png"  class="common_img" style="width:500px;" >
-
-5. Click **Install**.
-
-<img src="../_static/media/chapter_2/section_3/media/image5.png"  class="common_img" style="width:500px;" >
-
-<img src="../_static/media/chapter_2/section_3/media/image6.png"  class="common_img" style="width:500px;" >
-
-6. After successful installation, click **Finish**.
-
-<img src="../_static/media/chapter_2/section_3/media/image7.png"  class="common_img" style="width:500px;" >
-
-## 2.4 Starter Project 1: Onboard RGB Light Flashing
+## 2.4 Starter Project 1: Button-Triggered Sound and Light Alarm
 
 ### 2.4.1 Programming
 
-1. Create a new file: Open the programming software and create a new project.
+#### 1. Create a New File
 
-<img src="../_static/media/chapter_2/section_4/media/image1.png"  class="common_img" style="width:800px" >
+<img src="../_static/media/chapter_2/section_4/media/image1.png"  class="common_img" style="width:900px;" >
 
-2. Add extensions:
+#### 2. Write the Program
 
-- Click the extension button in the bottom left corner.
+<img src="../_static/media/chapter_2/section_4/media/image21.png"  class="common_img" style="width:500px;" >
 
-<img src="../_static/media/chapter_2/section_4/media/image2.png"  class="common_img" style="width:800px" >
+Program link: https://makecode.microbit.org/_RvsEdu4ao9MP. Click **Edit** in the top right corner of the link page to download the complete program.
 
-- Select **Controller** in the **Choose an Extension** interface to add **K12 ESP32**.
+<img src="../_static/media/chapter_2/section_4/media/image5.png"  class="common_img" style="width:500px;" >
 
-<img src="../_static/media/chapter_2/section_4/media/image3.png"  class="common_img" style="width:800px" >
+### 2.4.2 Program Downloading
 
-- After successful addition, the added extension package is visible on the WonderCode interface.
-
-<img src="../_static/media/chapter_2/section_4/media/image4.png"  class="common_img" style="width:800px" >
-
-3. Program:
-   
-- Drag the corresponding blocks from the block palette to the scripting area to program. Once programmed successfully, the Python program converted from the blocks is visible in the code display and upload area.
-
-<img src="../_static/media/chapter_2/section_4/media/image5.png"  class="common_img" style="width:500px" >
-
-* The source files are available for download under [1. Source Code / 03 Program Files for Starter Projects](https://drive.google.com/drive/folders/1C_cT51H9adfUnSPw9l57vPrQQ2A_vUBa?usp=sharing).
-
-### 2.4.2 Downloading the Program
-
-<img src="../_static/media/chapter_2/section_4/media/image6.gif"  class="common_img" style="width:800px;" >
-
-> [!NOTE]
->
-> **The connected port number is not unique. The port number connected in this section is COM3. Do not connect to COM1 as it is typically the interface for system communication. If multiple COM ports are displayed and cannot be determined, right-click This PC, click Properties -> Device Manager in sequence, and check the port number corresponding to the controller, where the port containing the CH340 label is the correct port.**
-
-<img src="../_static/media/chapter_2/section_4/media/image7.png"  class="common_img" style="width:300px;" >
+<img src="../_static/media/chapter_2/section_4/media/image1.gif"  class="common_img" style="width:900px;" >
 
 ### 2.4.3 Program Outcome
 
-After downloading the program successfully, the two onboard RGB lights of the controller switch colors every 1 second, in the sequence of red, green, and blue.
+After powering on, the device initializes `DaDabit` and turns off the onboard RGB light. Press **A** to play a high-pitched tone and trigger the red light alarm. Press **B** to mute and turn off the RGB light.
 
-> [!NOTE]
->
-> **The following starter projects are designed to facilitate a quick start with the electronic modules used in this kit. For detailed descriptions of the modules, refer to [4.3 Electronic Modules Overview](https://wiki.hiwonder.com/projects/DaDablock-AI/en/ultimate-kit/docs/4_Software_and_Hardware_Guide.html#_4-3-electronic-modules-overview) for learning.**
+## 2.5 Starter Project 2: Multi-Button Dual Servo Control
 
-## 2.5 Starter Project 2: Dual Servos and Dot Matrix Graphics Display
+### 2.5.1 Wiring Guide
 
-### 2.5.1 Learning Objectives
+<img src="../_static/media/chapter_2/section_4/media/image11.png"  class="common_img" style="width:600px;" >
 
-1. Understand the dot matrix module and master the basic usage of displaying preset expression patterns on the dot matrix.
+### 2.5.2 Programming
 
-2. Master the angle adjustment method for the ESP32 controller to control the 270° servo, and understand the logic of variable control for servo movement.
+#### 1. Create a New File
 
-3. Master the speed and direction regulation methods for the ESP32 controller to control the DC motor, and understand the control logic of forward rotation, reverse rotation, and stopping.
+<img src="../_static/media/chapter_2/section_4/media/image2.png"  class="common_img" style="width:900px;" >
 
-### 2.5.2 Wiring Diagram
+#### 2. Write the Program
 
-Connect the dot matrix module cable to port **P5** of the ESP32 controller.
+<img src="../_static/media/chapter_2/section_4/media/image22.png"  class="common_img" style="width:900px;" >
 
-Connect the 270° block servo cable to port **S1** of the ESP32 controller, and insert the **orange** wire of the servo into the **white** pin of S1.
+Program link: https://makecode.microbit.org/_F4tUxiFp15aX. Click **Edit** in the top right corner of the link page to download the complete program.
 
-Connect the 360° block servo cable to port **S2** of the ESP32 controller, and insert the **orange** wire of the servo into the **white** pin of S2.
+<img src="../_static/media/chapter_2/section_4/media/image5.png"  class="common_img" style="width:500px;" >
 
-As shown in the figure:
+### 2.5.3 Program Downloading
 
-<img src="../_static/media/chapter_2/section_5/media/image1.png"  class="common_img" style="width:400px;" >
+<img src="../_static/media/chapter_2/section_4/media/image1.gif"  class="common_img" style="width:900px;" >
 
-### 2.5.3 Programming
+### 2.5.4 Program Outcome
 
-#### 1. Adding Extension Libraries
-
-Select **Output module** in the **Choose an Extension** interface to add the **Dot matrix module**.
-
-<img src="../_static/media/chapter_2/section_5/media/image2.png"  class="common_img" style="width:800px;" >
-
-#### 2. Program Display
-
-<img src="../_static/media/chapter_2/section_5/media/image3.png"  class="common_img" style="width:500px;" >
-
-* The source files are available for download under [1. Source Code / 03 Program Files for Starter Projects](https://drive.google.com/drive/folders/1C_cT51H9adfUnSPw9l57vPrQQ2A_vUBa?usp=sharing).
-
-### 2.5.4 Downloading the Program
-
-<img src="../_static/media/chapter_2/section_4/media/image6.gif"  class="common_img" style="width:800px;" >
-
-### 2.5.5 Program Outcome
-
-After the program is downloaded successfully, the interface of the dot matrix screen is initialized and its brightness is set, and the 270° block servo connected to port `S1` rotates to `135°`. Then the following loop executes: the dot matrix screen draws pattern `S1` and waits for `2` seconds, the `S1` servo rotates to `270°` and `0°` in sequence, waiting for `2` seconds after each rotation. The dot matrix screen then draws pattern `S2` and waits for `2` seconds, the 360° block servo connected to port `S2` rotates at a speed of `50` while the dot matrix screen displays text `ON`. After waiting for `5` seconds, the `S2` servo stops and the dot matrix screen displays number `0`.
+After powering on and initializing the device, the main loop continuously monitors the **Logo** button. Pressing the **Logo** button switches the value of the count variable, which alternates the rotation of Servo 1, the 360° servo, between clockwise and counterclockwise. Press **A** to rotate Servo 2 to `100°` and press **B** to rotate it to `-100°`, allowing independent control of the two servos.
 
 ## 2.6 Starter Project 3: Fan Control
 
-### 2.6.1 Learning Objectives
+### 2.6.1 Wiring Guide
 
-1. Understand the functions of the fan module and master the control methods for turning the fan on and off.
+<img src="../_static/media/chapter_2/section_4/media/image12.png"  class="common_img" style="width:600px;" >
 
-### 2.6.2 Wiring Diagram
+### 2.6.2 Programming
 
-Connect the fan module cable to port **5** of the ESP32 controller, as shown in the figure:
+#### 1. Create a New File
 
-<img src="../_static/media/chapter_4/section_3/media/subsection_4/image2.png"  class="common_img" style="width:400px;" >
+<img src="../_static/media/chapter_2/section_4/media/image3.png"  class="common_img" style="width:900px;" >
 
-### 2.6.3 Programming
+#### 2. Write the Program
 
-#### 1. Adding Extension Libraries
+<img src="../_static/media/chapter_2/section_4/media/image23.png"  class="common_img" style="width:400px;" >
 
-Select **Output module** in the **Choose an Extension** interface to add the **Fan module (Black)**.
+Program link: https://makecode.microbit.org/_8z3a8U4i3fVX. Click **Edit** in the top right corner of the link page to download the complete program.
 
-<img src="../_static/media/chapter_2/section_6/media/image2.png"  class="common_img" style="width:800px;" >
+<img src="../_static/media/chapter_2/section_4/media/image5.png"  class="common_img" style="width:500px;" >
 
-#### 2. Program Display
+### 2.6.3 Program Downloading
 
-<img src="../_static/media/chapter_4/section_3/media/subsection_4/image3.png"  class="common_img" style="width:500px;" >
+<img src="../_static/media/chapter_2/section_4/media/image1.gif"  class="common_img" style="width:900px;" >
 
-* The source files are available for download under [1. Source Code / 03 Program Files for Starter Projects](https://drive.google.com/drive/folders/1C_cT51H9adfUnSPw9l57vPrQQ2A_vUBa?usp=sharing).
+### 2.6.4 Program Outcome
 
-### 2.6.4 Downloading the Program
+Press the **A** button to run the fan at speed level `80`. Press the **B** button to set the fan speed to `0` and stop the fan, realizing one-button start and stop of the fan.
 
-<img src="../_static/media/chapter_2/section_4/media/image6.gif"  class="common_img" style="width:800px;" >
+## 2.7 Starter Project 4: Dual Sensor Integration
 
-### 2.6.5 Program Outcome
+### 2.7.1 Wiring Guide
 
-After downloading the program, the fan rotates at a speed of `60` and stops rotating after `10` seconds.
+<img src="../_static/media/chapter_2/section_4/media/image13.png"  class="common_img" style="width:600px;" >
 
-## 2.7 Starter Project 4: 4-Channel Line Follower, Temperature and Humidity, Glowing Ultrasonic, and Light Sensor Coordination
+### 2.7.2 Programming
 
-### 2.7.1 Learning Objectives
+#### 1. Create a New File
 
-1. Understand the functions of the glowing ultrasonic sensor and its role in detecting distance.
+<img src="../_static/media/chapter_2/section_4/media/image4.png"  class="common_img" style="width:900px;" >
 
-2. Understand the functions of the light sensor and its role in sensing ambient light intensity.
+#### 2. Write the Program
 
-3. Understand the functions of the temperature and humidity sensor and learn how to read temperature and humidity values.
+<img src="../_static/media/chapter_2/section_4/media/image24.png"  class="common_img" style="width:500px;" >
 
-4. Understand the functions of the 4-channel line follower sensor and learn how to read the detection status of the line follower sensor.
+Program link: https://makecode.microbit.org/_X34i8d3osJsA. Click **Edit** in the top right corner of the link page to download the complete program.
 
-### 2.7.2 Wiring Diagram
+<img src="../_static/media/chapter_2/section_4/media/image5.png"  class="common_img" style="width:500px;" >
 
-Connect the 4-channel line follower sensor cable to port **1** of the ESP32 controller.
+### 2.7.3 Program Downloading
 
-Connect the glowing ultrasonic sensor cable to port **2** of the ESP32 controller.
+<img src="../_static/media/chapter_2/section_4/media/image1.gif"  class="common_img" style="width:900px;" >
 
-Connect the temperature and humidity sensor cable to port **3** of the ESP32 controller.
+### 2.7.4 Program Outcome
 
-Connect the light sensor cable to port **5** of the ESP32 controller.
-
-As shown in the figure:
-
-<img src="../_static/media/chapter_2/section_7/media/image1.png"  class="common_img" style="width:500px;" >
-
-### 2.7.3 Programming
-
-#### 1. Adding Extension Libraries
-
-Select **Sensors** in the **Choose an Extension** interface to add the **Glowy ultrasonic sensor**, **Light sensor**, **Temperature and humidity sensor**, and **4-channel line follower sensor**.
-
-<img src="../_static/media/chapter_2/section_7/media/image2.png"  class="common_img" style="width:800px" >
-
-#### 2. Program Display
-
-<img src="../_static/media/chapter_2/section_7/media/image3.png"  class="common_img" style="width:500px" >
-
-* The source files are available for download under [1. Source Code / 03 Program Files for Starter Projects](https://drive.google.com/drive/folders/1C_cT51H9adfUnSPw9l57vPrQQ2A_vUBa?usp=sharing).
-
-### 2.7.4 Downloading the Program
-
-<img src="../_static/media/chapter_2/section_4/media/image6.gif"  class="common_img" style="width:800px;" >
-
-### 2.7.5 Program Outcome
-
-After the program is successfully downloaded, 4-channel line follower sensor port `1` and ultrasonic sensor port `2` are initialized first. Then the following loop executes: if all four probes of the 4-channel line follower sensor detect black lines, the temperature value is printed to the serial port, if the 4-channel line follower sensor detects white ground, the humidity value is printed to the serial port, and if the obstacle distance detected by the ultrasonic sensor is less than `20` cm, the light intensity value is printed to the serial port.
+After powering on and completing sensor initialization, the program continuously detects the 4-channel line follower sensor based on priority levels 1 to 4. Red, yellow, green, and blue RGB lights represent the trigger status of each channel. Meanwhile, the ultrasonic distance is read continuously and displayed on the screen in real-time, with a `100` millisecond interval between detection rounds.
 
 
 

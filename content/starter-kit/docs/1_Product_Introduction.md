@@ -1,9 +1,5 @@
 # 1. Product Introduction
 
-[TOC]
-
-
-
 ## 1.1 Introduction
 
 DaDa:bit AI is a versatile, large AI model building block kit specially designed for teenagers. Powered by the large AI model module, this kit features a brain and a rich selection of electronic modules. It instantly provides building blocks with eyes to recognize colors, remember faces, and follow lines flexibly. It also features ears and a mouth to understand instructions and engage in natural conversations, making it easy to master AI!

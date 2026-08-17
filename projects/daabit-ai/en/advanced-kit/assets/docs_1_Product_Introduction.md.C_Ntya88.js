@@ -1,0 +1,15 @@
+import { _ as _export_sfc, o as openBlock, c as createElementBlock, ah as createStaticVNode } from "./chunks/framework.CtwzKPAY.js";
+const _imports_0 = "/projects/daabit-ai/en/advanced-kit/assets/image.Dt8JJn52.png";
+const _imports_1 = "/projects/daabit-ai/en/advanced-kit/assets/image3.Ce2jL0cY.png";
+const __pageData = JSON.parse('{"title":"1. Product Introduction","description":"","frontmatter":{},"headers":[],"relativePath":"docs/1_Product_Introduction.md","filePath":"docs/1_Product_Introduction.md"}');
+const _sfc_main = { name: "docs/1_Product_Introduction.md" };
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", null, [..._cache[0] || (_cache[0] = [
+    createStaticVNode('<h1 id="_1-product-introduction" tabindex="-1">1. Product Introduction <a class="header-anchor" href="#_1-product-introduction" aria-label="Permalink to &quot;1. Product Introduction&quot;">​</a></h1><h2 id="_1-1-introduction" tabindex="-1">1.1 Introduction <a class="header-anchor" href="#_1-1-introduction" aria-label="Permalink to &quot;1.1 Introduction&quot;">​</a></h2><p>DaDa:bit AI is a versatile, large AI model building block kit specially designed for teenagers. Powered by the large AI model module, this kit features a brain and a rich selection of electronic modules. It instantly provides building blocks with eyes to recognize colors, remember faces, and follow lines flexibly. It also features ears and a mouth to understand instructions and engage in natural conversations, making it easy to master AI!</p><div align="center"><img loading="lazy" height="2963" width="3417" src="' + _imports_0 + '" class="common_img" style="width:1000px;"></div><h2 id="_1-2-packing-list" tabindex="-1">1.2 Packing List <a class="header-anchor" href="#_1-2-packing-list" aria-label="Permalink to &quot;1.2 Packing List&quot;">​</a></h2><div align="center"><img loading="lazy" height="2963" width="3417" src="' + _imports_1 + '" class="common_img" style="width:1000px;"></div><h2 id="_1-3-disclaimer" tabindex="-1">1.3 Disclaimer <a class="header-anchor" href="#_1-3-disclaimer" aria-label="Permalink to &quot;1.3 Disclaimer&quot;">​</a></h2><ul><li>The products described in this manual, including hardware and software, are provided on an <strong>as-is</strong> basis. Every effort has been made to ensure the accuracy of the content at the time of writing, but the manual may still contain errors or omissions. The tutorials are reviewed regularly, and suggestions for improvement are welcome.</li><li>Product content may change as product versions are updated. Contact customer service when ordering to obtain the latest product information.</li><li>In addition, unless Hiwonder explicitly states that the product is intended for a specific use, no liability is assumed for losses caused by malfunction or damage when the product is used under extreme conditions.</li></ul>', 8)
+  ])]);
+}
+const _1_Product_Introduction = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export {
+  __pageData,
+  _1_Product_Introduction as default
+};

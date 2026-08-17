@@ -1,14 +1,14 @@
 # 1. Product Introduction
 
-## 1.1 Product Introduction
+## 1.1 Introduction
 
-DaDablock AI is a versatile, large AI model building block kit specially designed for teenagers. Powered by the large AI model module, this kit features a brain and a rich selection of electronic modules. It instantly provides building blocks with eyes to recognize colors, remember faces, and follow lines flexibly. It also features ears and a mouth to understand instructions and engage in natural conversations, making it easy to master AI!
+DaDa:bit AI is a versatile, large AI model building block kit specially designed for teenagers. Powered by the large AI model module, this kit features a brain and a rich selection of electronic modules. It instantly provides building blocks with eyes to recognize colors, remember faces, and follow lines flexibly. It also features ears and a mouth to understand instructions and engage in natural conversations, making it easy to master AI!
 
-<div align="center"><img src="../_static/media/chapter_1/section_1/media/image.png" class="common_img" style="width:1000px;"></div>
+<div align="center"><img src="../_static/media/chapter_1/section_1/media/image.png"  class="common_img" style="width:1000px;" ></div>
 
 ## 1.2 Packing List
 
-<div align="center"><img src="../_static/media/chapter_1/section_2/media/image3.png" class="common_img" style="width:1000px;"></div>
+<div align="center"><img src="../_static/media/chapter_1/section_1/media/image3.png"  class="common_img" style="width:1000px;" ></div>
 
 ## 1.3 Disclaimer
 

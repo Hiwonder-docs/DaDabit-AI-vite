@@ -1,40 +1,43 @@
-# DaDablock AI Documentation
+# DaDabit AI Documentation
 
-This repository contains the DaDablock AI VitePress documentation site. The
-documentation source files are Markdown files under `docs/docs/`.
+This repository contains the DaDabit AI VitePress documentation site.
 
-## Local development
+## Versions
 
-Install dependencies and start the local documentation server:
+- `latest`
+- `starter-kit`
+- `standard-kit`
+- `advanced-kit`
+
+## Development
 
 ```bash
 npm ci
-npm run docs:dev
+npm run dev:latest
+npm run dev:starter-kit
+npm run dev:standard-kit
+npm run dev:advanced-kit
 ```
 
-Build the production site and stage the artifacts:
+Use the version-specific dev commands so `DOCS_BASE` matches the deployed route.
+
+## Build
 
 ```bash
-npm run docs:build
-npm run docs:stage-main
+npm run build:all
 ```
 
-The staged production files are generated in `projects/DaDablock AI/en/latest/`.
-
-## GitHub Pages deployment
-
-The build artifacts under `projects/` are committed to the repository. Open
-**Settings > Pages**, select **Deploy from a branch**, and choose **main** and
-**/(root)**. Do not bind a custom domain.
-
-The GitHub Pages direct URL is:
+Build output is generated under:
 
 ```text
-https://GITHUB-USERNAME.github.io/DaDablock AI-vite/projects/DaDablock AI/en/latest/
+projects/daabit-ai/en/
 ```
 
-The public-facing URL (via the baota Nginx reverse proxy) is:
+Production routes:
 
 ```text
-https://wiki-test.hiwonder.com/projects/DaDablock AI/en/latest/
+https://wiki.hiwonder.com/projects/daabit-ai/en/latest/
+https://wiki.hiwonder.com/projects/daabit-ai/en/starter-kit/
+https://wiki.hiwonder.com/projects/daabit-ai/en/standard-kit/
+https://wiki.hiwonder.com/projects/daabit-ai/en/advanced-kit/
 ```

@@ -15,7 +15,14 @@ This is a smart beckoning cat capable of automated welcoming. Upon powering on, 
 
 ### 3.1.3 Assembly Guide
 
-[Assembly Guide](https://drive.google.com/drive/folders/1AlF45z7gbs3xVetpQHt8FHB4hImLnFy4?usp=sharing)
+ <iframe
+    src="../_static/pdf/01_Smart_Beckoning_Cat.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
 
 ### 3.1.4 Mode Switching
 
@@ -85,6 +92,16 @@ This is a color scanner capable of color recognition. Upon powering on, it conti
 2. Comprehend the interaction logic between color recognition and visual feedback, learning to display identified colors synchronously.
 
 ### 3.2.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/02_Color_Scanner.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.2.4 Mode Switching
 
 This model requires the offline vision function. If the offline vision function mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -145,6 +162,16 @@ This is an adjustable mixer featuring voice-controlled speed regulation. It rema
 2. Comprehend the semantic analysis of the large AI model and the principles of servo speed regulation, mastering voice-controlled three-level speed changes.
 
 ### 3.3.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/03_Adjustable_Mixer.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.3.4 Mode Switching
 
 This model requires the Online LLM. If the Online LLM mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.5.10 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.5.10) to re-flash the corresponding firmware.
@@ -233,6 +260,16 @@ This is a pumpjack bot featuring voice-controlled start and stop. Upon powering 
 2. Comprehend the coordination logic between voice command analysis and motor control, mastering voice-controlled mechanical rotation.
 
 ### 3.4.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/04_Pumpjack_Bot.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.4.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -296,6 +333,16 @@ This is a smart cradle featuring voice-controlled sleep assistance. Upon powerin
 2. Comprehend the voice command and motor drive logic, learning to control the starting and stopping of the cradle rocking by voice.
 
 ### 3.5.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/05_Smart_Cradle.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.5.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -359,6 +406,16 @@ This is a Ferris wheel featuring voice-controlled speed regulation. Upon powerin
 2. Comprehend the logic of voice command analysis and motor control, implementing voice-activated start, stop, and constant-speed rotation.
 
 ### 3.6.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/06_Ferris_Wheel.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.6.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -420,6 +477,16 @@ This is a smart desk lamp featuring voice-controlled color adjustment. Upon powe
 2. Comprehend the coordination logic of voice command analysis and light control, learning to implement voice-controlled light switches and colors.
 
 ### 3.7.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/07_Smart_Desk_Lamp.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.7.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -480,6 +547,16 @@ This is a smart chef bot capable of cooking on command. Upon powering on, it ent
 2. Comprehend the semantic recognition logic of the large AI model, learning to control the starting and stopping of the cooking arm by voice.
 
 ### 3.8.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/08_Chef_Bot.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.8.4 Mode Switching
 
 This model requires the Online LLM. If the Online LLM mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.5.10 Mode Switching](./4.Software%20&%20Hardware%20Guide.md#anther4.5.10) to re-flash the corresponding firmware.
@@ -565,6 +642,16 @@ This is an intelligent pull-up robot featuring workout on command. Through the v
 2. Comprehend the coordination logic of voice command analysis and motor control, learning to control the starting and stopping of workout routines.
 
 ### 3.9.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/09_Pull-Up_Bot.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.9.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -626,6 +713,16 @@ This is a smart barrier gate capable of proactive door opening. Upon powering on
 2. Comprehend the programming logic of facial recognition and voice broadcasting, learning to implement face-triggered barrier actions and welcoming audio.
 
 ### 3.10.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/10_Smart_Barrier_Gate.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.10.4 Mode Switching
 
 This model requires the offline vision function. If the offline vision function mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -688,6 +785,16 @@ This is a smart pirate ship featuring activation on command. Upon powering on, i
 2. Comprehend the coordination logic of voice command analysis and servo rotation, learning to control the start, stop, and operation of mechanical structures via voice.
 
 ### 3.11.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/11_Pirate_Ship.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.11.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -758,6 +865,16 @@ This is a smart swing featuring swinging on command. Upon powering on, it enters
 2. Comprehend the coordination logic of voice command analysis and servo operation, learning to control the swing's start, stop, and movement via voice.
 
 ### 3.12.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/12_Smart_Swing.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.12.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -828,6 +945,16 @@ This is a smart sawing bot featuring sawing on command. Upon powering on, it ent
 2. Comprehend the coordination logic of voice command analysis and servo operation, learning to control the starting, stopping, and operation of mechanical structures via voice.
 
 ### 3.13.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/13_Sawing_Bot.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.13.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -900,6 +1027,16 @@ This is a smart face-changing bot featuring expression changing on command. Upon
 2. Comprehend the coordination logic of voice command analysis and servo actions, learning to control the mechanism to switch between different expressions.
 
 ### 3.14.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/14_Face-Changing_Bot.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.14.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -971,6 +1108,16 @@ This is a smart ski star featuring sliding on command. Upon powering on, it ente
 2. Comprehend the coordination logic of voice command analysis and motor control, learning to control the starting, stopping, and speed of mechanical structures via voice.
 
 ### 3.15.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/15_Ski_Star.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.15.4 Mode Switching
 
 This model requires offline voice interaction. If the offline voice interaction mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.6.1 Firmware Update](./4.Software%20and%20Hardware%20Guide.md#anther4.6.1) to re-flash the corresponding firmware.
@@ -1034,6 +1181,16 @@ This is a smart rhythm drummer capable of drumming on command. Upon powering on,
 2. Comprehend the coordination logic of voice command analysis, motor control, and music playback, learning to coordinate drumming with audio.
 
 ### 3.16.3 Assembly Guide
+
+ <iframe
+    src="../_static/pdf/16_Rhythm_Drummer.pdf#view=FitH"
+    title="Assembly Guide PDF"
+    width="100%"
+    height="850"
+    style="border: 1px solid #ddd;"
+    loading="lazy">
+ </iframe>
+
 ### 3.16.4 Mode Switching
 
 This model requires the Online LLM. If the Online LLM mode has been entered, skip this step and proceed directly to the wiring guide. Otherwise, refer to [4.5.10 Mode Switching](./4.Software%20&%20Hardware%20Guide.md#anther4.5.10) to re-flash the corresponding firmware.

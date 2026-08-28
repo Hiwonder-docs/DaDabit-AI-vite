@@ -15,6 +15,7 @@ function injectVersionSwitcher() {
   if (navList.querySelector('.version-switcher')) return
 
   const versions = ['latest', 'starter-kit', 'standard-kit', 'advanced-kit']
+  const versionRoot = '/projects/daabit-ai/en'
   const labels: Record<string, string> = {
     'latest': 'Latest',
     'starter-kit': 'Starter Kit',
@@ -58,7 +59,10 @@ function injectVersionSwitcher() {
     item.addEventListener('click', () => {
       const ver = (item as HTMLElement).dataset.version!
       if (ver !== current) {
-        let newPath = location.pathname.replace(`/en/${current}/`, `/en/${ver}/`)
+        const newPath =
+          ver === 'latest'
+            ? `${versionRoot}/latest/docs/index.html`
+            : location.pathname.replace(`/en/${current}/`, `/en/${ver}/`)
         window.location.href = newPath
       }
       menu.style.display = 'none'

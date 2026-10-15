@@ -711,15 +711,7 @@ export default defineConfig({
       }
     },
     nav: [
-      {
-        text: 'Version',
-        items: [
-          { text: 'Latest', link: '/projects/daabit-ai/en/latest/' },
-          { text: 'Starter Kit', link: '/projects/daabit-ai/en/starter-kit/' },
-          { text: 'Standard Kit', link: '/projects/daabit-ai/en/standard-kit/' },
-          { text: 'Advanced Kit', link: '/projects/daabit-ai/en/advanced-kit/' }
-        ]
-      },
+      { component: 'VersionSwitcher' },
       { text: 'Home', link: 'https://www.hiwonder.net/', target: '_self' }
     ],
     sidebar: getSidebar()

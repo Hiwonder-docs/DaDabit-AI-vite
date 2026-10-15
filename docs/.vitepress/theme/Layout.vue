@@ -8,70 +8,6 @@ import ImageViewer from './ImageViewer.vue'
 const { frontmatter } = useData()
 const route = useRoute()
 
-function injectVersionSwitcher() {
-  if (!inBrowser) return
-  const navList = document.querySelector('.VPNavBarMenu')
-  if (!navList) return
-  if (navList.querySelector('.version-switcher')) return
-
-  const versions = ['latest', 'starter-kit', 'standard-kit', 'advanced-kit']
-  const versionRoot = '/projects/daabit-ai/en'
-  const labels: Record<string, string> = {
-    'latest': 'Latest',
-    'starter-kit': 'Starter Kit',
-    'standard-kit': 'Standard Kit',
-    'advanced-kit': 'Advanced Kit',
-  }
-
-  let current = 'latest'
-  for (const ver of versions) {
-    if (location.pathname.includes(`/en/${ver}/`)) {
-      current = ver
-      break
-    }
-  }
-
-  const li = document.createElement('li')
-  li.className = 'version-switcher'
-  li.innerHTML = `
-    <span class="version-switcher__label">Version</span>
-    <button type="button" class="version-switcher__trigger">
-      <span class="version-switcher__name">${labels[current]}</span>
-    </button>
-    <ul class="version-switcher__menu" style="display:none">
-      ${versions.map(ver => `<li class="version-switcher__item ${current === ver ? 'is-selected' : ''}" data-version="${ver}">${labels[ver]}</li>`).join('')}
-    </ul>
-  `
-
-  const trigger = li.querySelector('.version-switcher__trigger') as HTMLButtonElement
-  const menu = li.querySelector('.version-switcher__menu') as HTMLElement
-
-  trigger.addEventListener('click', (e) => {
-    e.stopPropagation()
-    menu.style.display = menu.style.display === 'none' ? 'block' : 'none'
-  })
-
-  document.addEventListener('click', (e) => {
-    if (!li.contains(e.target as Node)) menu.style.display = 'none'
-  })
-
-  li.querySelectorAll('.version-switcher__item').forEach(item => {
-    item.addEventListener('click', () => {
-      const ver = (item as HTMLElement).dataset.version!
-      if (ver !== current) {
-        const newPath =
-          ver === 'latest'
-            ? `${versionRoot}/latest/docs/index.html`
-            : location.pathname.replace(`/en/${current}/`, `/en/${ver}/`)
-        window.location.href = newPath
-      }
-      menu.style.display = 'none'
-    })
-  })
-
-  navList.insertBefore(li, navList.firstChild)
-}
-
 function decodePath(path: string) {
   try {
     return decodeURI(path)
@@ -1059,7 +995,6 @@ onMounted(() => {
   document.addEventListener('click', handleLightboxDocumentClick)
   document.addEventListener('keydown', handleLightboxDocumentKeydown)
   patchLogoLink()
-  injectVersionSwitcher()
   scheduleImageEnhancement()
   scheduleModuleEnhancement()
 })
@@ -1072,7 +1007,6 @@ watch(
     resetLazyImageRuntime(getDocRoot())
     await nextTick()
     patchLogoLink()
-  injectVersionSwitcher()
     scheduleImageEnhancement()
     scheduleModuleEnhancement()
   }

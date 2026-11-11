@@ -4,7 +4,8 @@ node_modules/
 /docs/.vitepress/dist/
 /docs/docs/
 /docs/_static/
-/.github/
+/.pages-dist/
+/.pages-report.json
 *.log
 .DS_Store
 Thumbs.db

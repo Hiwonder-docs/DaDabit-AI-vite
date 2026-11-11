@@ -8,6 +8,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:stage-main": "node scripts/stage_main_site.mjs",
+    "pages:prepare": "node scripts/prepare_pages.mjs",
     "build:latest": "node scripts/build_version.mjs latest",
     "build:starter-kit": "node scripts/build_version.mjs starter-kit",
     "build:standard-kit": "node scripts/build_version.mjs standard-kit",

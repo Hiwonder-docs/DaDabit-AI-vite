@@ -107,10 +107,10 @@ async function submitFeedback() {
     payload.append('email', form.email.trim())
     payload.append('message', form.message.trim())
     payload.append('website', form.website)
-    payload.append('source', 'DaDabit AI docs')
+    payload.append('source', 'DaDabit-AI docs')
     payload.append('pageTitle', document.title)
     payload.append('pageUrl', window.location.href)
-    payload.append('version', 'latest')
+    payload.append('version', decodeURIComponent(window.location.pathname.match(/\/projects\/[^/]+\/[^/]+\/([^/]+)/)?.[1] || 'latest'))
     images.value.forEach((file) => {
       payload.append('images[]', file)
     })
